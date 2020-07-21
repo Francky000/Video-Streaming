@@ -1,0 +1,24 @@
+.bookMarksWrapper {
+    border-bottom: 1px solid #efefef;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .removeBookVideo {
+    margin-bottom: 10px;
+    outline: none;
+    box-shadow: none;
+    border-width: 0.1em;
+    border-radius: 3px;
+    border-style: solid;
+    
+    color: rgba(203, 20, 32, 0.4);
+    border-color: rgba(203, 20, 32, 0.4);
+    background-color: transparent;
+  }
+
+  .special:hover{
+    color: rgb(53, 117, 214);
+    background-color:white;
+    border:0px;
+  }

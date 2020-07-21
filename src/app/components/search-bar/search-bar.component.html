@@ -1,0 +1,4 @@
+<div class="searchBar-wrapper">
+    <input type="text" placeholder="Link of the video..." [(ngModel)]="videoLink" value="{{ videoLink }}" />
+    <button class="btn btn-primary" (click)="addVideo(videoLink)" [disabled]="!videoLink.startsWith('https://')" > Load </button>
+</div>
